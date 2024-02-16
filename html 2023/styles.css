@@ -1,0 +1,174 @@
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+.navDiv {
+  display: flex;
+  width: 1150px;
+  height: 46px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.search {
+  margin: 10px 150px 5px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  border: none;
+}
+.search::placeholder {
+  text-align: center;
+}
+.langDiv {
+  margin: auto;
+  margin-left: 10px;
+}
+.select {
+  border: none;
+}
+.loginSignUp {
+  display: flex;
+  margin: auto;
+}
+.login {
+  color: white;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-right: 35px;
+  margin-top: 8px;
+  background-color: #8a33fd;
+}
+.signUp {
+  margin-top: 8px;
+  color: #8a33fd;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.sectionUp {
+  display: flex;
+}
+.leftDiv {
+  height: 100vh;
+  width: 50%;
+}
+.leftDiv img {
+  height: 140vh;
+  width: 100%;
+}
+.rightDiv {
+  border-top: 1px solid #b6b5b5;
+  height: 140vh;
+  width: 50%;
+  background-color: white;
+}
+.rightInnerDiv {
+  background-color: white;
+  margin: 50px 60px 100px 50px;
+  width: 80%;
+  height: 90vh;
+}
+.rightInnerDiv h2 {
+  color: #333333;
+  margin-bottom: 40px;
+}
+.email {
+  background-color: white;
+  background: url(./Assets/Google.jpg) no-repeat;
+  background-position: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #8a33fd;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 1px;
+  margin-top: 20px;
+  border-color: #3c4242;
+}
+.pass {
+  background: url(./Assets/twitter.jpg) no-repeat;
+  background-position: 30%;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  color: #8a33fd;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 1px;
+  margin-top: 20px;
+  border-color: #3c4242;
+}
+.rightInnerDiv p {
+  color: #3c4242;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 10px;
+}
+.smallGoogle {
+  color: #8a33fd;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 10px;
+}
+.smallTwitter {
+  color: #8a33fd;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 10px;
+}
+.rightInnerDiv input {
+  width: 99%;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 1px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-color: #3c4242;
+}
+.password {
+  background: url(./Assets/Hide\ view.jpg) no-repeat;
+  background-position: 93% 0%;
+  word-spacing: 459px;
+}
+.forgetPassword {
+  margin-top: -5px;
+  margin-left: 400px;
+}
+.innerDivHr1 {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 45%;
+  margin-right: 45px;
+}
+.innerDivHr2 {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 45%;
+}
+.signIn {
+  width: 150px;
+  height: 37px;
+  border-radius: 6px;
+  color: #f6f6f6;
+  background-color: #8a33fd;
+  cursor: pointer;
+}
+/* .innerDivHr2 {
+  width: 45%;
+  margin-right: 0px;
+  padding-top: 0px;
+  margin-bottom: 50px;
+} */

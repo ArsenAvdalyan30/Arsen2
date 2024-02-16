@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>First html project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+        <nav class="navbar">
+            <div class="navDiv">
+                <img src="./Assets/Logo.jpg" alt="logo">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+                <input class="search" type="search" placeholder="&#xF002 Search"  style="font-family:Arial, FontAwesome">
+                <div class="langDiv">      
+                      <select class="select" >
+                        <option lang="de" value="deutsch">Deutsch</option>
+                        <option lang="en" value="english" selected>English(united States)</option>
+                        <option lang="fr" value="francais">Français</option>
+                        <option lang="it" value="italiano">Italiano</option>
+                        <option lang="ru" value="russian">Русский</option>
+                      </select>
+                  </div>
+                  <div class="loginSignUp" >
+                      <button class="login" >Login</button>
+                      <button class="signUp">Sign Up</button>
+                  </div>
+            </div>
+        </nav>
+        <div class="sectionUp">
+            <div class="leftDiv">
+                <img src="./Assets/firstimg.jpg" alt="firstimg">
+            </div>
+            <div class="rightDiv">
+                <div class="rightInnerDiv">
+                    <h2>Sign In Page</h2>
+                    <button class="email"> <small class="smallGoogle">Continue With Google</small> </button>
+                    <button class="pass"> <small class="smallTwitter">Continue With Twitter</small></button>
+                    <div style="display:flex; justify-content: space-between;">
+                        <hr class="innerDivHr1"> 
+                        <p>Or</p>
+                        <hr class="innerDivHr2">
+                    </div>
+                    <p> <small>User name or email address</small> </p>
+                    <input type="text">
+                    <div class="password">
+                        <p style="padding-top: 3px;"> <small> Password Hide</small></p>
+                        <input type="password">
+                    </div>
+                    <p class="forgetPassword"><ins>Forget your password</ins></p>
+                    <button class="signIn"> <small>Sign In</small> </button>
+                    <p><small>Dont have an account? Sign up</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
